@@ -1,0 +1,89 @@
+header{    
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+
+.nav {
+    background-color: #858585;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #472a00;
+}
+
+body {
+    font-family: 'academy engraved let';
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    font-size: 30px;
+    text-align: center;
+    overflow: auto;
+
+}
+
+.image-left {
+    max-width: 30%; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.5;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #472a00;
+}
+
+.person {
+    max-width: 10%; 
+    margin-left: 50px;
+    Display: flex;
+}
+
+.d{
+    max-width: 20%;
+}
+
+.background{
+    background-color: #858585;
+}
+@media (min-width:800px) and (max-width: 1280px) {
+  .text {
+    font-size: 10pt;
+  }
+}
